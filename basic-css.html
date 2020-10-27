@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- meta tags, links to css, etc. -->
+<title>Milestones</title>
+<style>
+
+body {
+  background-color: lightblue;
+  font-family: Georgia;
+}
+
+h1 {
+  color:white;
+  background-color: blue;
+}
+
+h2{
+  background-color:blue;
+  color:white;
+}
+
+.highlight{
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.yellow{
+  background-color:yellow;
+  font-weight:bold;
+}
+
+h3#paragraph {
+  color:red;
+  font-weight:bold;
+}
+
+h3#new {
+  color:red;
+  font-weight:bold;
+}
+
+div p{
+  background-color:green;
+}
+
+div > h5{
+  background-color:white;
+}
+
+</style>
+</head>
+<body>
+  <!-- visible content goes here -->
+
+<h1> Hi, my name is Sydney McKenna, this has type tags. </h1>
+<h2> Hi, this also has a type tag. </h2>
+
+<p class="highlight"> This paragraph has a class selector on it. </p>
+<p class="yellow"> This also has a class selector. </p>
+
+<h3 id="paragraph"> This paragraph has an ID selector on it. </h3>
+<h3 id="new"> This also has an ID selector. </h3>
+
+<!-- Found this on https://www.w3schools.com/css/css_combinators.asp -->
+<div>
+  <p>This paragraph is in a descendant selector.</p>
+  <p>This paragraph is in a descendant selector.</p>
+  <section><p>This paragraph is in a descendant selector.</p></section>
+</div>
+
+<p>This paragraph is NOT in a descendant selector.</p>
+<p>This paragraph is NOT in a descendant selector.</p>
+
+<!-- Found this on https://www.w3schools.com/css/css_combinators.asp -->
+<div>
+  <h5>This paragraph is in a child selector.</h5>
+  <h5>This paragraph is in a child selector.</h5>
+  <section><h5>This paragraph is NOT in a child selector.</h5></section>
+  <h5>This paragraph is in a child selector.</h5>
+</div>
+
+<h5>This paragraph is NOT in a child selector.</h5>
+<h5>This paragraph is NOT in a child selector.</h5>
+
+
+
+
+
+</body>
+</html>
