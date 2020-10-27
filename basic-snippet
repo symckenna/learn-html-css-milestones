@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- meta tags, links to css, etc. -->
+<title>Milestones</title>
+<style>
+
+
+</style>
+</head>
+<body>
+<!-- visible content goes here -->
+
+
+<p>
+  Want to search the web?
+  Try <a href="https://google.com" id="the-best-link" class="banana"  target="_blank">Google</a>!
+</p>
+
+<ul>
+ <li>
+   <p> The "p" tag - find more info <a href="https://www.w3schools.com/tags/tag_p.asp">here</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p#:~:text=The%20HTML%20element%20represents,as%20images%20or%20form%20fields.">here</a>.
+ </p>
+</li>
+
+ <ul> The relationship between a "p" with a backwards slash and a "p" without a backwards slash is that the "p" without the slash starts the paragraph before any text is inputed, and the "p" with the slash finishes the paragraph and comes ta the very end.
+ </ul>
+
+ <li>
+   <p> The "a" tag - find more info <a href="https://html.com/anchors-links/">here</a> and <a href="https://www.w3schools.com/tags/tag_a.asp">here</a>.
+ </p>
+</li>
+
+ <ul>
+   <li>
+     <p> Some attribute names on the "a" tag are "href," "class," "id," and "target."
+
+  <ul>
+    <li>
+      <p> The "href" attribute gives the URL of the page the link goes to- find more info <a href="https://www.w3schools.com/tags/att_a_href.asp">here</a>.
+        <ul> Value: https://google.com
+        </ul>
+ </p>
+</li>
+
+ <li>
+   <p> The "id" attribute gives a unique id for an element- find more info <a href="https://www.w3schools.com/tags/att_id.asp">here</a>.
+     <ul> Value: the-best-link
+     </ul>
+ </p>
+</li>
+
+ <li>
+   <p> The "class" attribute refers to a class in the stylesheet- find more info <a href="https://www.geeksforgeeks.org/html-class-attribute/">here</a>.
+     <ul> Value: banana
+     </ul>
+ </p>
+</li>
+
+ <li>
+   <p> The "target" attribute indicates where the linked element will open- find more info <a href="https://www.w3schools.com/tags/att_a_target.asp">here</a>.
+     <ul> Value: _blank
+     </ul>
+ </p>
+</li>
+</ul>
+</ul>
+
+</body>
+</html>
